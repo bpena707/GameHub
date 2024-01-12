@@ -1,10 +1,14 @@
 import {Wrapper} from "@/app/(browse)/_components/sidebar/wrapper";
 
 import {Toggle} from "@/app/(browse)/_components/sidebar/toggle";
+import {Recommended} from "@/app/(browse)/_components/sidebar/recommended";
 export const Sidebar = () => {
-    return(
+    return (
         <Wrapper>
-            <Toggle />
+            <Toggle/>
+            <div className=''>
+                <Recommended/>
+            </div>
         </Wrapper>
-    )
+    );
 }
