@@ -1,4 +1,4 @@
-
+/*the auth service will sync the user between clerk and database */
 import {currentUser} from "@clerk/nextjs";
 import {db} from "@/lib/db";
 export const getSelf = async () => {
